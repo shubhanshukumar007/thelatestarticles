@@ -7,3 +7,20 @@
 .env
 .DS_Store
 .idea
+# Drupal
+/sites/default/files/
+/sites/default/settings.php
+/sites/*/settings.local.php
+
+# Composer
+/vendor/
+
+# DDEV
+/.ddev/
+
+# Database dumps
+*.sql
+
+# OS
+.DS_Store
+Thumbs.db
