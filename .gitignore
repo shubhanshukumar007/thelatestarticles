@@ -1,19 +1,13 @@
+# Composer
 /vendor/
+
+# Drupal
 /sites/*/files/
 /sites/*/private/
 /sites/*/settings.local.php
 /sites/*/services.local.yml
-
-.env
-.DS_Store
-.idea
-# Drupal
-/sites/default/files/
 /sites/default/settings.php
-/sites/*/settings.local.php
-
-# Composer
-/vendor/
+/sites/default/services.yml
 
 # DDEV
 /.ddev/
@@ -24,3 +18,10 @@
 # OS
 .DS_Store
 Thumbs.db
+
+# IDE
+.idea
+.env
+
+# Logs
+*.log
