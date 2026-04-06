@@ -332,6 +332,4 @@ requirements:
   cdn: true
   clientside_validation: true
   spam: true
-third_party_settings:
-  captcha:
-    replace_administration_mode: true
+third_party_settings: {  }

@@ -34,7 +34,15 @@ settings:
       - codeBlock
       - '|'
       - sourceEditing
+      - alignment
+      - specialCharacters
   plugins:
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
     ckeditor5_codeBlock:
       languages:
         -
